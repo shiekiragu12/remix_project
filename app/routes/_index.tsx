@@ -1,7 +1,8 @@
+/* eslint-disable import/no-unresolved */
 import type { MetaFunction } from "@remix-run/node";
 import { Form, useActionData, useNavigate } from "@remix-run/react";
 import { useEffect } from "react";
-import { User, addUser, findUserByEmailPassword } from "users";
+import { User, addUser, findUserByEmailPassword } from "user";
 import { v4 as uuidv4 } from "uuid";
 
 type ActionData = {
